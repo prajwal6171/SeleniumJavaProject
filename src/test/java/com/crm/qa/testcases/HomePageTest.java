@@ -40,6 +40,7 @@ public class HomePageTest extends TestBase {
 	public void verifyHomePageTitleTest(){
 		String homePageTitle = homePage.verifyHomePageTitle();
 		Assert.assertEquals(homePageTitle, "CRMPRO","Home page title not matched");
+		System.out.println("vrified home page title");
 	}
 	
 	@Test(priority=2)
